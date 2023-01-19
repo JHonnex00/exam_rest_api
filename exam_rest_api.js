@@ -6,9 +6,9 @@ app.listen(port, () => {
   console.log(`API listening on port ${port}!`);
 });
 let users = [
-  { id: 1, name: 'John', email: 'john@example.com' },
-  { id: 2, name: 'Jane', email: 'jane@example.com' },
-  { id: 3, name: 'Bob', email: 'bob@example.com' }
+  { id: 1, name: 'John', email: 'john@gmail.com' },
+  { id: 2, name: 'Jane', email: 'jane@gmail.com' },
+  { id: 3, name: 'Bob', email: 'bob@gmail.com' }
 ];
 // GET list of users
 app.get('/users', (req, res) => {
